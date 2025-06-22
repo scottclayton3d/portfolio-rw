@@ -28,7 +28,7 @@ const projects = [
     description:
       "Interactive web platform combining modern design with seamless functionality and cutting-edge animations",
     gradient: "from-purple-500 via-pink-500 to-red-500",
-    component: DigitalExperience,
+    component: DemoChatInterface,
   },
   {
     id: 2,
@@ -38,7 +38,7 @@ const projects = [
     year: "2024",
     description: "Comprehensive brand identity system with 3D elements, motion graphics, and immersive experiences",
     gradient: "from-blue-500 via-purple-500 to-pink-500",
-    component: VisualIdentity,
+    component: DemoCodeEditor,
   },
   {
     id: 3,
@@ -48,7 +48,7 @@ const projects = [
     year: "2024",
     description: "Immersive soundscape design for digital installations, interactive experiences, and spatial audio",
     gradient: "from-orange-500 via-red-500 to-pink-500",
-    component: AudioLandscape,
+    component: DemoKanbanBoard,
   },
   {
     id: 4,
@@ -58,7 +58,7 @@ const projects = [
     year: "2023",
     description: "Professional workflow enhancement tools, creative applications, and innovative digital solutions",
     gradient: "from-green-500 via-blue-500 to-purple-500",
-    component: CreativeTools,
+    component: DemoDashboard,
   },
   {
     id: 5,
