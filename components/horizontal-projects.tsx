@@ -11,10 +11,10 @@ import DemoChatInterface from "./project-components/chat-interface"
 import DemoCodeEditor from "./project-components/code-editor"
 import DemoKanbanBoard from "./project-components/kanban-board"
 import DemoDashboard from "./project-components/dashboard"
-import VirtualReality from "./project-components/virtual-reality"
-import AIIntegration from "./project-components/ai-integration"
-import MotionGraphics from "./project-components/motion-graphics"
-import BlockchainApps from "./project-components/blockchain-apps"
+import DemoCard from "./project-components/card"
+import Demo3d from "./project-components/3d"
+import DemoSocialFeed from "./project-components/social-feed"
+import ParticleText from "./project-components/particle-text"
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -62,33 +62,33 @@ const projects = [
   },
   {
     id: 5,
-    title: "VIRTUAL",
-    subtitle: "REALITY",
+    title: "INTERACTIVE",
+    subtitle: "CARD",
     category: "VR/AR",
     year: "2024",
     description: "Immersive virtual reality experiences with spatial computing and interactive 3D environments",
     gradient: "from-cyan-500 via-blue-500 to-purple-500",
-    component: VirtualReality,
+    component: DemoCard,
   },
   {
     id: 6,
-    title: "AI",
-    subtitle: "INTEGRATION",
+    title: "PARTICLE",
+    subtitle: "TEXT",
     category: "Machine Learning",
     year: "2024",
     description: "Intelligent systems and AI-powered applications for enhanced user experiences and automation",
     gradient: "from-emerald-500 via-teal-500 to-cyan-500",
-    component: AIIntegration,
+    component: ParticleText,
   },
   {
     id: 7,
-    title: "MOTION",
-    subtitle: "GRAPHICS",
+    title: "SOCIAL",
+    subtitle: "FEED",
     category: "Animation",
     year: "2023",
     description: "Dynamic motion graphics and cinematic animations for digital media and brand storytelling",
     gradient: "from-violet-500 via-purple-500 to-pink-500",
-    component: MotionGraphics,
+    component: DemoSocialFeed,
   },
   {
     id: 8,
