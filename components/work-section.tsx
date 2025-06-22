@@ -165,7 +165,7 @@ function ScrollingRow({
   )
 }
 
-export function WorkSection() {
+export default function WorkSection() {
   return (
     <section id="work" className="py-20 cosmic-bg overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 mb-16">
