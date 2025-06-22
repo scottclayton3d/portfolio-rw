@@ -92,13 +92,13 @@ const projects = [
   },
   {
     id: 8,
-    title: "BLOCKCHAIN",
+    title: "3D",
     subtitle: "APPS",
     category: "Web3",
     year: "2023",
     description: "Decentralized applications and blockchain integrations for the future of digital ownership",
     gradient: "from-amber-500 via-orange-500 to-red-500",
-    component: BlockchainApps,
+    component: Demo3d,
   },
 ]
 
