@@ -9,7 +9,7 @@ import MinimalAbout from "@/components/minimal-about"
 import CosmicContact from "@/components/cosmic-contact"
 import FloatingNavigation from "@/components/floating-navigation"
 import LoadingScreen from "@/components/loading-screen"
-import WorkSection from "@/components/work-section
+import WorkSection from "@/components/work-section"
 
 gsap.registerPlugin(ScrollTrigger)
 
