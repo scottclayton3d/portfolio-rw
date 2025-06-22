@@ -7,10 +7,10 @@ import { ExternalLink, Github, ArrowLeft, ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import LiquidText from "./liquid-text"
 
-import DigitalExperience from "./project-components/digital-experience"
-import VisualIdentity from "./project-components/visual-identity"
-import AudioLandscape from "./project-components/audio-landscape"
-import CreativeTools from "./project-components/creative-tools"
+import DemoChatInterface from "./project-components/chat-interface"
+import DemoCodeEditor from "./project-components/code-editor"
+import DemoKanbanBoard from "./project-components/kanban-board"
+import DemoDashboard from "./project-components/dashboard"
 import VirtualReality from "./project-components/virtual-reality"
 import AIIntegration from "./project-components/ai-integration"
 import MotionGraphics from "./project-components/motion-graphics"
@@ -21,8 +21,8 @@ gsap.registerPlugin(ScrollTrigger)
 const projects = [
   {
     id: 1,
-    title: "DIGITAL",
-    subtitle: "EXPERIENCE",
+    title: "CHAT",
+    subtitle: "INTERFACE",
     category: "Web Development",
     year: "2024",
     description:
@@ -32,8 +32,8 @@ const projects = [
   },
   {
     id: 2,
-    title: "VISUAL",
-    subtitle: "IDENTITY",
+    title: "CODE",
+    subtitle: "EDITOR",
     category: "3D Art",
     year: "2024",
     description: "Comprehensive brand identity system with 3D elements, motion graphics, and immersive experiences",
@@ -42,8 +42,8 @@ const projects = [
   },
   {
     id: 3,
-    title: "AUDIO",
-    subtitle: "LANDSCAPE",
+    title: "KANBAN",
+    subtitle: "BOARD",
     category: "Music Production",
     year: "2024",
     description: "Immersive soundscape design for digital installations, interactive experiences, and spatial audio",
@@ -53,7 +53,7 @@ const projects = [
   {
     id: 4,
     title: "CREATIVE",
-    subtitle: "TOOLS",
+    subtitle: "DASHBOARD",
     category: "Development",
     year: "2023",
     description: "Professional workflow enhancement tools, creative applications, and innovative digital solutions",
