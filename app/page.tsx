@@ -6,7 +6,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger"
 import AbstractHero from "@/components/abstract-hero"
 import HorizontalProjects from "@/components/horizontal-projects"
 import MinimalAbout from "@/components/minimal-about"
-import CosmicContact from "@/components/cosmic-contact"
+import MinimalContact from "@/components/minimal-contact"
 import FloatingNavigation from "@/components/floating-navigation"
 import LoadingScreen from "@/components/loading-screen"
 import WorkSection from "@/components/work-section"
@@ -85,9 +85,9 @@ export default function Home() {
       <div ref={containerRef} className="main-content">
         <AbstractHero onScrollToNext={scrollToNextSection} />
         <HorizontalProjects />
-        <WorkSection /
+        <WorkSection />
         <MinimalAbout />
-        <CosmicContact />
+        <MinimalContact />
       </div>
     </div>
   )
