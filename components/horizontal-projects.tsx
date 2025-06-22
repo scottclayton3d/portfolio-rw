@@ -7,98 +7,98 @@ import { ExternalLink, Github, ArrowLeft, ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import LiquidText from "./liquid-text"
 
-import DemoChatInterface from "./project-components/chat-interface"
-import DemoCodeEditor from "./project-components/code-editor"
-import DemoKanbanBoard from "./project-components/kanban-board"
-import DemoDashboard from "./project-components/dashboard"
-import DemoCard from "./project-components/card"
-import Demo3d from "./project-components/3d"
-import DemoSocialFeed from "./project-components/social-feed"
-import ParticleText from "./project-components/particle-text"
+import DigitalExperience from "./project-components/digital-experience"
+import VisualIdentity from "./project-components/visual-identity"
+import AudioLandscape from "./project-components/audio-landscape"
+import CreativeTools from "./project-components/creative-tools"
+import VirtualReality from "./project-components/virtual-reality"
+import AIIntegration from "./project-components/ai-integration"
+import MotionGraphics from "./project-components/motion-graphics"
+import BlockchainApps from "./project-components/blockchain-apps"
 
 gsap.registerPlugin(ScrollTrigger)
 
 const projects = [
   {
     id: 1,
-    title: "CHAT",
-    subtitle: "INTERFACE",
+    title: "DIGITAL",
+    subtitle: "EXPERIENCE",
     category: "Web Development",
     year: "2024",
     description:
       "Interactive web platform combining modern design with seamless functionality and cutting-edge animations",
     gradient: "from-purple-500 via-pink-500 to-red-500",
-    component: DemoChatInterface,
+    component: DigitalExperience,
   },
   {
     id: 2,
-    title: "CODE",
-    subtitle: "EDITOR",
+    title: "VISUAL",
+    subtitle: "IDENTITY",
     category: "3D Art",
     year: "2024",
     description: "Comprehensive brand identity system with 3D elements, motion graphics, and immersive experiences",
     gradient: "from-blue-500 via-purple-500 to-pink-500",
-    component: DemoCodeEditor,
+    component: VisualIdentity,
   },
   {
     id: 3,
-    title: "KANBAN",
-    subtitle: "BOARD",
+    title: "AUDIO",
+    subtitle: "LANDSCAPE",
     category: "Music Production",
     year: "2024",
     description: "Immersive soundscape design for digital installations, interactive experiences, and spatial audio",
     gradient: "from-orange-500 via-red-500 to-pink-500",
-    component: DemoKanbanBoard,
+    component: AudioLandscape,
   },
   {
     id: 4,
     title: "CREATIVE",
-    subtitle: "DASHBOARD",
+    subtitle: "TOOLS",
     category: "Development",
     year: "2023",
     description: "Professional workflow enhancement tools, creative applications, and innovative digital solutions",
     gradient: "from-green-500 via-blue-500 to-purple-500",
-    component: DemoDashboard,
+    component: CreativeTools,
   },
   {
     id: 5,
-    title: "INTERACTIVE",
-    subtitle: "CARD",
+    title: "VIRTUAL",
+    subtitle: "REALITY",
     category: "VR/AR",
     year: "2024",
     description: "Immersive virtual reality experiences with spatial computing and interactive 3D environments",
     gradient: "from-cyan-500 via-blue-500 to-purple-500",
-    component: DemoCard,
+    component: VirtualReality,
   },
   {
     id: 6,
-    title: "PARTICLE",
-    subtitle: "TEXT",
+    title: "AI",
+    subtitle: "INTEGRATION",
     category: "Machine Learning",
     year: "2024",
     description: "Intelligent systems and AI-powered applications for enhanced user experiences and automation",
     gradient: "from-emerald-500 via-teal-500 to-cyan-500",
-    component: ParticleText,
+    component: AIIntegration,
   },
   {
     id: 7,
-    title: "SOCIAL",
-    subtitle: "FEED",
+    title: "MOTION",
+    subtitle: "GRAPHICS",
     category: "Animation",
     year: "2023",
     description: "Dynamic motion graphics and cinematic animations for digital media and brand storytelling",
     gradient: "from-violet-500 via-purple-500 to-pink-500",
-    component: DemoSocialFeed,
+    component: MotionGraphics,
   },
   {
     id: 8,
-    title: "3D",
+    title: "BLOCKCHAIN",
     subtitle: "APPS",
     category: "Web3",
     year: "2023",
     description: "Decentralized applications and blockchain integrations for the future of digital ownership",
     gradient: "from-amber-500 via-orange-500 to-red-500",
-    component: Demo3d,
+    component: BlockchainApps,
   },
 ]
 
