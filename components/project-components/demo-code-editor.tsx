@@ -211,7 +211,7 @@ print(f'Fibonacci(10): {result}')`,
         </div>
       </div>
 
-      {language !== "javascript" && (Add commentMore actions
+      {language !== "javascript" && (
         <div className="mt-1 text-xs text-yellow-600">Note: Only JavaScript can be executed in this demo</div>
       )}
     </div>

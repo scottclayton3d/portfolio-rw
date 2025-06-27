@@ -1,4 +1,4 @@
-"use client"Add commentMore actions
+"use client"
 
 import { useState } from "react"
 import { Heart, MessageCircle, Share2, Bookmark, MoreHorizontal } from "lucide-react"
