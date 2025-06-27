@@ -7,11 +7,11 @@ import { ExternalLink, Github, ArrowLeft, ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import LiquidText from "./liquid-text"
 
-import DigitalExperience from "./project-components/digital-experience"
-import VisualIdentity from "./project-components/visual-identity"
-import AudioLandscape from "./project-components/audio-landscape"
-import CreativeTools from "./project-components/creative-tools"
-import VirtualReality from "./project-components/virtual-reality"
+import DemoCodeEditor from "./project-components/demo-code-editor"
+import DemoKanbanBoard from "./project-components/demo-kanban-board"
+import DemoSocialFeed from "./project-components/demo-social-feed"
+import Demo3d from "./project-components/demo-3d"
+import DemoCard from "./project-components/demo-card"
 import AIIntegration from "./project-components/ai-integration"
 import MotionGraphics from "./project-components/motion-graphics"
 import BlockchainApps from "./project-components/blockchain-apps"
@@ -21,54 +21,54 @@ gsap.registerPlugin(ScrollTrigger)
 const projects = [
   {
     id: 1,
-    title: "DIGITAL",
-    subtitle: "EXPERIENCE",
+    title: "CODE",
+    subtitle: "EDITOR",
     category: "Web Development",
     year: "2024",
     description:
       "Interactive web platform combining modern design with seamless functionality and cutting-edge animations",
     gradient: "from-purple-500 via-pink-500 to-red-500",
-    component: DigitalExperience,
+    component: DemoCodeEditor,
   },
   {
     id: 2,
-    title: "VISUAL",
-    subtitle: "IDENTITY",
+    title: "KANBAN",
+    subtitle: "BOARD",
     category: "3D Art",
     year: "2024",
     description: "Comprehensive brand identity system with 3D elements, motion graphics, and immersive experiences",
     gradient: "from-blue-500 via-purple-500 to-pink-500",
-    component: VisualIdentity,
+    component: DemoKanbanBoard,
   },
   {
     id: 3,
-    title: "AUDIO",
-    subtitle: "LANDSCAPE",
+    title: "3D",
+    subtitle: "ELEMENT",
     category: "Music Production",
     year: "2024",
     description: "Immersive soundscape design for digital installations, interactive experiences, and spatial audio",
     gradient: "from-orange-500 via-red-500 to-pink-500",
-    component: AudioLandscape,
+    component: Demo3d,
   },
   {
     id: 4,
-    title: "CREATIVE",
-    subtitle: "TOOLS",
+    title: "CARD",
+    subtitle: "TILT",
     category: "Development",
     year: "2023",
     description: "Professional workflow enhancement tools, creative applications, and innovative digital solutions",
     gradient: "from-green-500 via-blue-500 to-purple-500",
-    component: CreativeTools,
+    component: DemoCard,
   },
   {
     id: 5,
-    title: "VIRTUAL",
-    subtitle: "REALITY",
+    title: "SOCIAL",
+    subtitle: "FEED",
     category: "VR/AR",
     year: "2024",
     description: "Immersive virtual reality experiences with spatial computing and interactive 3D environments",
     gradient: "from-cyan-500 via-blue-500 to-purple-500",
-    component: VirtualReality,
+    component: DemoSocialFeed,
   },
   {
     id: 6,
