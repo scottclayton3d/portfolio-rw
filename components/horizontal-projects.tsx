@@ -48,7 +48,7 @@ const projects = [
     year: "2024",
     description: "Immersive soundscape design for digital installations, interactive experiences, and spatial audio",
     gradient: "from-orange-500 via-red-500 to-pink-500",
-    component: Demo3D,
+    component: HeroSection,
   },
   {
     id: 4,
